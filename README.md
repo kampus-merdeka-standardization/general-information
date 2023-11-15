@@ -15,5 +15,7 @@ Radar ada dalam bentuk grafis, mengelompokkan item-item ke dalam techniques, too
 - Assess: Teknologi yang mungkin memiliki nilai, tetapi belum matang atau diuji sepenuhnya. Perlu dilakukan evaluasi lebih lanjut sebelum diadopsi secara luas.
 - Hold: Teknologi yang telah mengalami pergeseran tren atau tidak lagi dianggap sebagai pilihan yang baik untuk diadopsi.
 
+![tech radar](images/tech-radar.png)
+
 ### Reference
 - [Tech Radar](https://www.thoughtworks.com/radar)
