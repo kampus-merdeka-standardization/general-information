@@ -3,9 +3,9 @@
 ## Overview
 
 ### Situasi saat ini
-Saat ini Telkomsel masih mengandalkan vendor untuk membantu membangun sebagian besar sistem untuk mendukung pertumbuhan bisnisnya. Hal ini tidak dapat dihindari karena Telkomsel bukanlah perusahaan perangkat lunak yang memiliki tim pengembang dalam jumlah besar. Di sisi lain, hal ini membuat Telkomsel berada dalam posisi yang riskan karena ketergantungan terhadap vendor. 
+Saat ini **T** masih mengandalkan vendor untuk membantu membangun sebagian besar sistem untuk mendukung pertumbuhan bisnisnya. Hal ini tidak dapat dihindari karena **T** bukanlah perusahaan perangkat lunak yang memiliki tim pengembang dalam jumlah besar. Di sisi lain, hal ini membuat **T** berada dalam posisi yang riskan karena ketergantungan terhadap vendor. 
 
-Berdasarkan pengalaman, dari sisi vendor, terutama ketika kami membangun perangkat lunak khusus dan bukan produk COTS, hampir tidak ada standarisasi yang diterapkan di sisi mereka. Jika kita melihat sifat dari software house ketika programmer mereka datang dan pergi di luar kendali Telkomsel, hal ini dapat menyebabkan kualitas yang lebih buruk dari pengiriman dan peningkatan biaya pemeliharaan serta pengembangan lebih lanjut. 
+Berdasarkan pengalaman, dari sisi vendor, terutama ketika kami membangun perangkat lunak khusus dan bukan produk COTS, hampir tidak ada standarisasi yang diterapkan di sisi mereka. Jika kita melihat sifat dari software house ketika programmer mereka datang dan pergi di luar kendali **T**, hal ini dapat menyebabkan kualitas yang lebih buruk dari pengiriman dan peningkatan biaya pemeliharaan serta pengembangan lebih lanjut. 
 
 
 Sebagai contoh: 
@@ -21,21 +21,21 @@ Sebagai contoh:
 
 3. Pemilihan tech stack sebagian besar akan didasarkan pada apa yang mampu dilakukan oleh anggota tim, bukan pada apa yang paling cocok untuk kasus penggunaan tertentu.
 
-4. Telkomsel tidak memiliki kontrol yang cukup untuk menentukan stack apa yang cocok untuk kebutuhan spesifik tersebut, pada akhirnya akan bergantung pada kesiapan dan kemampuan vendor (poin #3). 
+4. **T** tidak memiliki kontrol yang cukup untuk menentukan stack apa yang cocok untuk kebutuhan spesifik tersebut, pada akhirnya akan bergantung pada kesiapan dan kemampuan vendor (poin #3). 
 
 5. Jika satu vendor dengan beberapa proyek dapat menggunakan stack yang berbeda, maka beberapa vendor dapat membawa stack mereka sendiri. Hal ini tentu menjadi tantangan yang signifikan dalam hal pemeliharaan, skalabilitas, dan kolaborasi dalam organisasi.
 
-Dalam kondisi Telkomsel saat ini, beberapa aplikasi yang dibangun oleh vendor perlu dipelihara dan dilanjutkan oleh tim internal atau bahkan oleh vendor lain, standarisasi dalam bahasa pemrograman dan pemilihan tech stack menjadi hal yang sangat krusial dan penting. Hal ini membawa konsistensi, penyederhanaan pemeliharaan, dan menyederhanakan kolaborasi antar tim. Standardisasi meningkatkan skalabilitas, kesederhanaan proses orientasi, pengoptimalan biaya, serta menawarkan fleksibilitas dan ketahanan di masa depan.
+Dalam kondisi **T** saat ini, beberapa aplikasi yang dibangun oleh vendor perlu dipelihara dan dilanjutkan oleh tim internal atau bahkan oleh vendor lain, standarisasi dalam bahasa pemrograman dan pemilihan tech stack menjadi hal yang sangat krusial dan penting. Hal ini membawa konsistensi, penyederhanaan pemeliharaan, dan menyederhanakan kolaborasi antar tim. Standardisasi meningkatkan skalabilitas, kesederhanaan proses orientasi, pengoptimalan biaya, serta menawarkan fleksibilitas dan ketahanan di masa depan.
 
 ### Pentingnya Standardisasi
 
-- **Pemeliharaan yang Efisien**: Menstandarkan bahasa pemrograman dan komponen tumpukan teknologi di seluruh aplikasi akan menghadirkan konsistensi dan kesederhanaan dalam proses pemeliharaan. Ketika aplikasi yang berbeda menggunakan bahasa pemrograman, kerangka kerja, dan pustaka yang dipilih, akan lebih mudah bagi tim internal untuk memahami dan memeliharanya. Pengembang dapat memanfaatkan pengetahuan dan keahlian yang sudah ada, yang mengarah pada perbaikan bug yang lebih cepat, peningkatan sistem, dan peningkatan fitur, maka konsistensi akan tercapai. Tentu saja kami tidak berencana untuk mengadopsi satu bahasa pemrograman sebagai solusi untuk Telkomsel. Hal ini lebih kepada membuat pilihan berdasarkan apa yang sesuai dengan tujuan dalam aplikasi yang dibangun untuk Telkomsel.
+- **Pemeliharaan yang Efisien**: Menstandarkan bahasa pemrograman dan komponen tumpukan teknologi di seluruh aplikasi akan menghadirkan konsistensi dan kesederhanaan dalam proses pemeliharaan. Ketika aplikasi yang berbeda menggunakan bahasa pemrograman, kerangka kerja, dan pustaka yang dipilih, akan lebih mudah bagi tim internal untuk memahami dan memeliharanya. Pengembang dapat memanfaatkan pengetahuan dan keahlian yang sudah ada, yang mengarah pada perbaikan bug yang lebih cepat, peningkatan sistem, dan peningkatan fitur, maka konsistensi akan tercapai. Tentu saja kami tidak berencana untuk mengadopsi satu bahasa pemrograman sebagai solusi untuk **T**. Hal ini lebih kepada membuat pilihan berdasarkan apa yang sesuai dengan tujuan dalam aplikasi yang dibangun untuk **T**.
 
 - **Peningkatan Skalabilitas**: Standarisasi bahasa pemrograman dan tumpukan teknologi meningkatkan peluang skalabilitas. Ketika aplikasi dibangun menggunakan tech stack yang terstandardisasi, akan lebih mudah untuk mengintegrasikan dan menskalakan aplikasi tersebut seiring dengan pertumbuhan organisasi. Standardisasi mengurangi kerumitan yang terkait dengan pengintegrasian sistem yang beragam, memungkinkan komunikasi yang lancar dan pertukaran data antar aplikasi. Oleh karena itu, standarisasi memainkan peran penting dalam menskalakan aplikasi secara efektif.
 
 - **Kemandirian Vendor**: Standarisasi bahasa pemrograman dan tumpukan teknologi memberikan lapisan kemandirian vendor, mengurangi ketergantungan pada vendor tertentu dan mengurangi risiko yang terkait dengan penguncian vendor. Dengan menggunakan teknologi yang umum diadopsi dan didukung dengan baik, organisasi dapat memastikan aplikasi mereka di masa depan dan menghindari potensi tantangan yang terkait dengan teknologi khusus vendor yang menjadi usang atau tidak didukung.
 
-- **Kolaborasi yang Efisien**: Kolaborasi adalah landasan pengembangan perangkat lunak yang sukses. Ketika tim internal mewarisi aplikasi buatan vendor dengan berbagai tumpukan teknologi, hal ini dapat menghambat kolaborasi yang efektif di antara anggota tim. Standarisasi bahasa pemrograman dan tumpukan teknologi mendorong komunikasi yang lebih baik, berbagi pengetahuan, dan penggunaan ulang kode dalam organisasi. Pengembang dapat memanfaatkan keahlian kolektif mereka dan berkolaborasi dengan lancar, menghasilkan siklus pengembangan yang lebih cepat, mengurangi duplikasi upaya, dan meningkatkan koordinasi lintas tim. Kolaborasi ini juga dapat diperluas ke vendor kami, di mana dalam hal ini mereka harus mengikuti standar kami. Di sisi lain, sebagai bagian dari ekosistem Telkomsel, vendor juga dapat berkontribusi kepada Telkomsel untuk memenuhi standar ini.
+- **Kolaborasi yang Efisien**: Kolaborasi adalah landasan pengembangan perangkat lunak yang sukses. Ketika tim internal mewarisi aplikasi buatan vendor dengan berbagai tumpukan teknologi, hal ini dapat menghambat kolaborasi yang efektif di antara anggota tim. Standarisasi bahasa pemrograman dan tumpukan teknologi mendorong komunikasi yang lebih baik, berbagi pengetahuan, dan penggunaan ulang kode dalam organisasi. Pengembang dapat memanfaatkan keahlian kolektif mereka dan berkolaborasi dengan lancar, menghasilkan siklus pengembangan yang lebih cepat, mengurangi duplikasi upaya, dan meningkatkan koordinasi lintas tim. Kolaborasi ini juga dapat diperluas ke vendor kami, di mana dalam hal ini mereka harus mengikuti standar kami. Di sisi lain, sebagai bagian dari ekosistem **T**, vendor juga dapat berkontribusi kepada **T** untuk memenuhi standar ini.
 
 - **Optimalisasi Biaya**: Standarisasi dapat mengarah pada optimalisasi biaya dengan mengurangi waktu dan upaya yang diperlukan untuk kegiatan pemeliharaan dan pengembangan. Ketika aplikasi berbagi tumpukan teknologi yang sama, akan lebih mudah untuk melatih dan mengalokasikan sumber daya secara efisien. Proses pengembangan dapat disederhanakan, dan sumber daya dapat digunakan bersama, sehingga mengurangi duplikasi upaya dan memaksimalkan produktivitas.
 
@@ -48,7 +48,7 @@ Dengan berinvestasi dalam standardisasi, organisasi dapat meletakkan fondasi yan
 
 ## How to Define
 
-Untuk membuat pedoman standarisasi library, Telkomsel membutuhkan framework dan workflows untuk memastikan kelancaran dan konsistensi operasional. Langkah pertama adalah menentukan apakah sebuah library cocok untuk dipilih sebagai library standar. Sebuah matriks diperlukan untuk memproses library baru menjadi library terpilih. Selain itu, workflow juga diperlukan untuk menyesuaikan standar yang ada dan untuk mengesampingkannya.
+Untuk membuat pedoman standarisasi library, **T** membutuhkan framework dan workflows untuk memastikan kelancaran dan konsistensi operasional. Langkah pertama adalah menentukan apakah sebuah library cocok untuk dipilih sebagai library standar. Sebuah matriks diperlukan untuk memproses library baru menjadi library terpilih. Selain itu, workflow juga diperlukan untuk menyesuaikan standar yang ada dan untuk mengesampingkannya.
 
 ### Library Selection
 
@@ -99,7 +99,7 @@ Berikut adalah elaborasi dari setiap aspek yang tercantum di atas :
    Mencerminkan seberapa dikenal pemelihara library, baik di tingkat lokal maupun internasional, serta persepsi publik.
 
 3. **Compatibility (Kesesuaian)**  
-   Menunjukkan kesesuaian library dengan arsitektur saat ini dan sistem warisan yang telah ada di Telkomsel.
+   Menunjukkan kesesuaian library dengan arsitektur saat ini dan sistem warisan yang telah ada di **T**.
 
 4. **Community (Komunitas)**  
    Mendeskripsikan keterlibatan komunitas dengan library, apakah secara luas digunakan atau hanya digunakan oleh sekelompok kecil pengguna.
